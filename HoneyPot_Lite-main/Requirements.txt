@@ -1,0 +1,39 @@
+Library needed:
+
+paramiko
+pytz
+argparse
+flask
+logging
+
+
+COMMAND TO INSTALL:
+
+To install virtual environment --> python3 -m venv venv
+To activate virtual environment --> source venv/bin/activate
+To deactivate virtual environment --> deactivate
+
+Once you downloaded and activated virtual environment then install all the dependencies.
+
+To install paramiko --> pip install paramiko
+
+To install pytz --> pip install pytz
+
+SSH RSA key generation --> ssh-keygen -t rsa -b 2048 -f server.key
+
+To install argparse --> pip install --upgrade pip 
+			pip install argparse
+
+To installs Python 3 and all essential components required for full functionality --> sudo apt update
+										      sudo apt install python3-full
+
+To install Flask --> pip install Flask
+
+To install logging --> pip install logging
+
+Remove Old Key --> ssh-keygen -f "/home/<user-name>/.ssh/known_hosts" -R "[127.0.0.1]:2223"
+
+
+Sometimes these command may not work in virtual environment so sometimes u need to break the packages to install it forcefully by adding --break-system-packages to every command.
+
+If not refer AI tools for better understanding.
