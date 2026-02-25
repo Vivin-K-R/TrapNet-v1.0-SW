@@ -1,5 +1,4 @@
-# HoneyPot_Lite
-
+# TrapNet v1.0-SW
 ## Install
 
 1) Clone repository.
