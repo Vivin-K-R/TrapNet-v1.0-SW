@@ -1,4 +1,24 @@
-# TrapNet v1.0-SW
+# TrapNet v1.0-SW  
+**Lightweight SSH and Web Honeypot for Threat Monitoring**
+
+TrapNet v1.0-SW is a low-interaction honeypot developed in Python that simulates SSH and HTTP login services to monitor and log unauthorized access attempts. It provides a controlled environment to observe attacker behavior, capture credential harvesting attempts, and record executed commands for basic threat analysis and security research.
+
+This project is intended for cybersecurity learning, threat intelligence collection, and demonstrating practical network security concepts.
+
+---
+
+## Features
+
+- Simulates an SSH server using Paramiko
+- Provides a fake interactive shell environment
+- Hosts a fake web login page using Flask
+- Captures attacker IP addresses, usernames, and passwords
+- Logs commands executed by attackers
+- Supports multiple simultaneous connections using threading
+- Uses structured logging with timezone support
+- Lightweight and easy to deploy
+
+---
 ## Install
 
 1) Clone repository.
