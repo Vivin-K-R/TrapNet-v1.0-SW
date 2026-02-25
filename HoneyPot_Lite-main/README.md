@@ -1,4 +1,4 @@
-<h1 style="color: #ff9900; font-weight: bold;">HoneyPot_Lite</h1>
+<h1 style="color: #ff9900; font-weight: bold;">TrapNet v1.0-SW</h1>
 
 ### Install
 
